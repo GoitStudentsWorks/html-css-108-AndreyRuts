@@ -1,5 +1,6 @@
 .header-logo {
   margin-right: auto;
+  outline: none;
 }
 
 .header-navigation-link {
@@ -28,22 +29,27 @@
 }
 
 .header-social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid rgba(252, 249, 249, 0.1);
   border-radius: 15px;
   width: 44px;
   height: 44px;
   background: rgba(252, 249, 249, 0.1);
 }
 
-.header-social-list-link-item {
-  line-height: 0;
+.header-social-list-link-item:hover,
+.header-social-list-link-item:focus {
+  border: 1px solid #ecd979;
+  outline: none;
 }
 
-.header-social-list-link:hover {
-  border: 1px solid #ecd979;
+.header-social-list-link-item {
+  line-height: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-burger {
@@ -52,6 +58,7 @@
   line-height: 0;
   width: 36px;
   height: 24px;
+  outline: none;
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -90,6 +97,11 @@
     text-transform: uppercase;
     text-decoration: none;
   }
+  .header-navigation-link:hover,
+  .header-navigation-link:focus {
+    color: #ecd979;
+    outline: none;
+  }
 
   .header-tel {
     display: block;
@@ -107,8 +119,10 @@
     height: 48px;
   }
 
-  .header-tel-link:hover {
+  .header-tel-link:hover,
+  .header-tel-link:focus {
     border: 1px solid #ecd979;
+    outline: none;
   }
   .header-burger {
     display: none;
@@ -118,9 +132,12 @@
 
 .header-mobile-container {
   width: 274px;
-  height: 100% vh;
+  height: 100vh;
   padding-top: 20px;
   background-color: #ecd979;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .header-mobile-menu-align {
@@ -160,8 +177,7 @@
   flex-direction: column;
   gap: 20px;
   align-items: flex-end;
-  margin-top: 186px;
-  margin-bottom: 185px;
+
   margin-right: 20px;
 }
 .header-mobile-list-link {
@@ -199,8 +215,6 @@
   }
   .header-mobile-list {
     gap: 25px;
-    margin-top: 223px;
-    margin-bottom: 222px;
   }
 }
 
