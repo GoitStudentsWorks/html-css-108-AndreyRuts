@@ -53,6 +53,12 @@
 
 }
 
+.section-paddings{
+    padding-bottom: 80px;
+}
+
+
+
 /*=================TABLET=================*/
 @media screen and (min-width:768px) {
    
@@ -82,6 +88,10 @@
         padding: 0px 18px 18px 18px;
         max-width: 336px;
     }
+
+    .section-paddings{
+        padding-bottom: 100px;
+    }
     
 }
 
@@ -98,5 +108,9 @@
 
     .first-list-testimonials{
         column-gap: 26px;
+    }
+
+    .section-paddings{
+        padding-bottom: 150px;
     }
 }
