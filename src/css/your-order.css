@@ -1,5 +1,6 @@
 .your-order {
   background-color: #1c2225;
+  padding-bottom: 40px;
 }
 .order-head-pic {
   background-image: url(/img/your-order/mobile-order-girl-green.jpg);
@@ -89,7 +90,7 @@
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  margin-bottom: 100px;
+  /* margin-bottom: px; */
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -124,6 +125,12 @@
     height: 776px;
     background-image: url(/img/your-order/tablet-order-girl-green.jpg);
   }
+  .order-send {
+    margin-bottom: 100px;
+  }
+  .your-order {
+    padding-bottom: 50px;
+  }
   .order-container {
     background-image: url(/img/background/ornament-bg-grey.png);
     background-repeat: no-repeat;
@@ -152,6 +159,7 @@
   }
   .order-send {
     margin-left: 0;
+
     /* margin-bottom: 100px; */
   }
   .order-vishi-hidden {
@@ -182,6 +190,9 @@
     width: 588px;
     /* height: 521px; */
   }
+  .order-send {
+    margin-bottom: 0;
+  }
   .order-container {
     padding-left: 50px;
     display: flex;
@@ -189,7 +200,7 @@
     justify-content: flex-start;
 
     padding-bottom: 0;
-    margin-bottom: 75px;
+
     background-position-x: -35%;
     background-position-y: bottom;
   }
