@@ -1,10 +1,10 @@
 .collection {
-  padding-top: 80px;
+  padding-top: 18px;
   padding-bottom: 80px; 
 }
 
 .collection-fon {
-  background-position-y: 11% ;
+  background-position-y: 9% ;
   background-size: 177px 199px ;
   background-repeat: no-repeat ;
   max-width: fit-content;
@@ -69,6 +69,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  
+  .collection {
+    padding-top: 50px;
+  } 
+
   .collection-menu {
       gap: 20px 20px;
       flex-direction: row;
@@ -79,7 +84,7 @@
   }
 
   .collection-fon {
-      background-position-y: 16%;
+      background-position-y: 13%;
       background-size: 300px 338px ;
 
   }
@@ -99,12 +104,12 @@
 
 @media screen and (min-width: 1280px) {
   .collection {
-      padding-top: 150px;
+      padding-top: 70px;
       padding-bottom: 150px; 
   }
 
   .collection-fon {
-      background-position-y: 28%;
+      background-position-y: 20%;
   }
 
   .collection-menu {
