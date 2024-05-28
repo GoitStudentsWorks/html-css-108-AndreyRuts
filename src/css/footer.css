@@ -18,7 +18,7 @@ footer .container {
   padding-bottom: 40px;
   display: flex;
   flex-wrap: wrap;
-  gap: 40px 25px;
+  gap: 25px 40px;
 }
 
 @media screen and (max-width: 767px) {
