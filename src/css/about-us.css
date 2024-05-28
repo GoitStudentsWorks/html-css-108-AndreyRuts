@@ -1,27 +1,18 @@
 /*========about-us=========*/
 
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-.about-us {
-}
+.about-us {}
 
 .about-us-section {
   padding: 40px 0;
 }
 
 .png {
-  background-image: url("/img/background/ornament-bg-grey.png");
+  background-image: url('/img/background/ornament-bg-grey.png');
   background-repeat: no-repeat;
   background-size: 459px 408px;
   background-position-x: 125px;
-  background-position-y: 560px;
+  background-position-y: 545px;
 }
-
 
 .about-us-div {
   display: flex;
@@ -29,11 +20,10 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 50px;
-  height: 1019px;
+  height: 950px;
 }
 
-.about-us-div-text {
-}
+.about-us-div-text {}
 
 .about-us-title {
   font-weight: 500;
@@ -69,8 +59,7 @@
   border-radius: 4px;
 }
 
-.about-us-img {
-}
+.about-us-img {}
 
 @media screen and (min-width: 768px) {
   .container {
@@ -79,19 +68,20 @@
   }
 
   .png {
-    background-image: url("/img/background/ornament-bg-grey.png");
+    background-image: url('/img/background/ornament-bg-grey.png');
     background-repeat: no-repeat;
     background-size: 545px 484px;
-    background-position-x: 405px;
-    background-position-y: 450px;
+    background-position-x: 400px;
+    background-position-y: 440px;
   }
 
   .about-us-section {
-    padding: 50px 0;
+    padding: 0;
   }
 
   .about-us-div {
     gap: 40px;
+    height: 925px;
   }
 
   .about-us-title {
@@ -114,16 +104,16 @@
     padding: 0 50px;
   }
 
- .png {
-   background-image: url("/img/background/ornament-bg-grey.png");
-   background-repeat: no-repeat;
-   background-size: 545px 484px;
-   background-position-x: 870px;
-   background-position-y: 400px;
- }
+  .png {
+    background-image: url('/img/background/ornament-bg-grey.png');
+    background-repeat: no-repeat;
+    background-size: 545px 484px;
+    background-position-x: 850px;
+    background-position-y: 300px;
+  }
 
   .about-us-section {
-    padding: 75px 0;
+    /* padding: 75px 0; */
   }
 
   .about-us-title {
@@ -137,6 +127,7 @@
     justify-content: center;
     flex-direction: row;
     gap: 50px;
+    height: 805px;
   }
 
   .about-us-item {
