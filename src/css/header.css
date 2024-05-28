@@ -39,6 +39,7 @@
 .header-social-list-link-item:focus {
   border: 1px solid #ecd979;
   outline: none;
+  background: #1c2225;
 }
 
 .header-social-list-link-item {
