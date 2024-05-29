@@ -74,7 +74,7 @@
 }
 .send-arrow {
   fill: #ecd979;
-  display: none;
+  margin-left: 10px;
 }
 .order-send {
   display: flex;
@@ -99,18 +99,14 @@
   border-radius: 4px;
   display: none;
 }
-.send-arrow {
-  margin-left: 10px;
-}
+
 .input-name:focus {
   border-color: #ecd979;
 }
 .order-send:hover {
   border-color: #ecd979;
 }
-.order-send:hover > .send-arrow {
-  display: flex;
-}
+
 .order-send:focus {
   border-color: #ecd979;
   outline: none;
